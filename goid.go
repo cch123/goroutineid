@@ -42,4 +42,8 @@ func init() {
 }
 
 // GetGoID returns the goroutine id
-func GetGoID() int64
+func GetGoID() int64 {
+	return getGoID(offset)
+}
+
+func getGoID(off int64) int64
