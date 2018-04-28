@@ -41,7 +41,7 @@ var offset = offsetDict[runtime.Version()]
 
 // GetGoID returns the goroutine id
 func GetGoID() int64 {
-	return getGoID(offset)
+	return getGoID()
 }
 
-func getGoID(off int64) int64
+func getGoID() int64
