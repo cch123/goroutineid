@@ -40,8 +40,4 @@ var offsetDict = map[string]int64{
 var offset = offsetDict[runtime.Version()]
 
 // GetGoID returns the goroutine id
-func GetGoID() int64 {
-	return getGoID()
-}
-
-func getGoID() int64
+func GetGoID() int64
