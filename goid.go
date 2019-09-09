@@ -42,7 +42,6 @@ var offsetDict = map[string]int64{
 	"go1.10.6":  152,
 	"go1.10.7":  152,
 	"go1.10.8":  152,
-	"go1.10.8":  152,
 	"go1.11":    152,
 	"go1.11.1":  152,
 	"go1.11.2":  152,
@@ -63,6 +62,7 @@ var offsetDict = map[string]int64{
 	"go1.12.5":  152,
 	"go1.12.6":  152,
 	"go1.12.7":  152,
+	"go1.13":    152,
 }
 
 var offset = offsetDict[runtime.Version()]
