@@ -1,4 +1,4 @@
-module github.com/cch123/goroutineid 
+module github.com/cch123/goroutineid
 
 go 1.12
 
